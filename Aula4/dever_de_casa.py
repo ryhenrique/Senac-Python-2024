@@ -5,8 +5,10 @@ numero = int(input("Digite o seu número:"))
 
 if (numero % 3 == 0):
     print(f"O seu número: {numero} é divisível por 3!")
+    if (numero % 5 == 0):
+        print(f"O seu número: {numero} é divisível por 5!")
 elif (numero % 5 == 0):
-    print(f"O seu número: {numero} é divisível por 5!")
+
+    print(f"O seu número: {numero} não é divisível por 3 e nem por 5")
 else:
-    print(f"O seu número: {numero} não é divisível por 3")
-    print(f"O seu número: {numero} não é divisível por 5")
+    print("Não foi possivel dividimos esse número por 3 e por 5")
