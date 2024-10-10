@@ -1,9 +1,3 @@
-#Dever de casa: Faça um programa que peça ao usuário para inserir 5 números. O programa deve calcular a soma acumulada desses números e exibir o resultado final.
-#Peça ao usuário para inserir 5 números.
-#Requisito:
-#Use uma variável acumuladora para armazenar a soma dos números.
-#Após o usuário inserir todos os números, exiba a soma total.
-
 print("Olá usuário(a) Bem-vindo ao programa de soma de 5 números desejado!")
 
 soma = 0
@@ -44,4 +38,4 @@ else:
     print(f"Você não digitou um número!")
 
 soma = numero1 + numero2 + numero3 + numero4 + numero5
-print(f"O seu valor dos 5 números digitados é: {soma}")
+print(f"O seu valor da soma dos 5 números digitados é: {soma}")
