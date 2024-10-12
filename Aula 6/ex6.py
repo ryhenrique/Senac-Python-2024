@@ -25,4 +25,4 @@ elif menu == 4:
     resultado = numero1 / numero2
     print(f"Essa é a sua divisão: {resultado}")
 
-print(f"Obrigado por utilizar o nosso menu de operações - SENAC RJ!")
+print(f"Obrigado por utilizar o nosso menu de operações matemáticas - SENAC RJ!")
